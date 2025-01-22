@@ -29,21 +29,20 @@ function atualizarLista() {
     
     while (i < nomes.length) {
         let item = document.createElement("li"); 
-        item.textContent = nomes[i]; // Define o texto como o nome do amigo
+        item.textContent = nomes[i]; 
         lista.appendChild(item); 
-        i++; 
+        i = i +1; 
     }
 }
 
 function sortearAmigo() {
     
-    if (nomes.length === 0) {
+    if (nomes.length == 0) {
         alert("Adicione um nome para sortear.");
         return;
     }
 
-    
-    let indiceAleatorio = Math.floor(Math.random() * nomes.length);
+    let indiceAleatorio = parseInt((Math.random() * nomes.length));
     let amigoSorteado = nomes[indiceAleatorio];
 
     
