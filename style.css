@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #191970; /* Midnight Blue */
+    --color-secondary: #F8F8FF; /* Ghost White */
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #191970; /* Midnight Blue */
+    --color-button-hover: #0d1a30; /* Cor mais escura do Midnight Blue */
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #F8F8FF; /* Ghost White */
 }
 
 /* Estilos gerais */
@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary); /* Midnight Blue */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body {
 /* Seção de entrada */
 .input-section {
     flex: 60%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary); /* Ghost White */
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
     display: flex;
@@ -58,14 +58,14 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: var(--color-white); /* Ghost White */
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-primary); /* Midnight Blue */
     margin: 10px 0;
     text-align: center;
 }
@@ -116,13 +116,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-tertiary); /* Cor original do botão de Adicionar */
     color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #a1a1a1; /* Cor de hover original */
 }
 
 /* Listas */
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #836FFF; /* SlateBlue1 */
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -148,7 +148,7 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: var(--color-white); /* Ghost White */
     background-color: var(--color-button);
     font-size: 16px;
 }
@@ -160,3 +160,4 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
