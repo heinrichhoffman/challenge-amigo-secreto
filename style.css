@@ -153,4 +153,57 @@ ul {
 }
 
 @media (max-width: 1200px) {
+    .main-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .input-section {
+        padding: 1rem;
+        border-radius: 2rem 2rem 0 0;
+        padding: 5%;
+    }
+    
+    .input-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.4375rem;
+    }
+    
+    .input-title,
+    .input-name {
+        width: 90%;
+        border-radius: 1.5625rem;
+        text-align: center;
+    }
+    
+    .button-container {
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button-add {
+        width: 90%;
+        border-radius: 1.563rem;
+    }
+    
+    .button-draw {
+        width: 90%;
+        justify-content: center;
+        padding: 0.625rem;
+    }
+    
+    .button-draw img {
+        margin-right: 1rem;
+    }
 }
+
+
+
+
